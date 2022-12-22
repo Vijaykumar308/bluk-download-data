@@ -1,6 +1,6 @@
 <?php  
     // Load the database configuration file 
-    //create your own db connection and load that
+    //create your own db connection and load thats
    include "../dbconn.php";
     if(isset($_POST["submitBtn"])){
     $from = $_POST["from"]." 00:00:00";
